@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T22:56:26.623Z",
+  "generated_at": "2026-04-23T22:59:32.950Z",
   "strategy": "target = min(p75, median + 0.35 * (max - median))",
   "targets": [
     {
