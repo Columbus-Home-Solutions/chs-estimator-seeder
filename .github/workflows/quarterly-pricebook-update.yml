@@ -1,0 +1,128 @@
+name: Quarterly Pricebook Update
+
+on:
+  schedule:
+    # 9:00am Central = 14:00 UTC. Runs quarterly: Jan 15, Apr 15, Jul 15, Oct 15.
+    - cron: '0 14 15 1,4,7,10 *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no writes to Jobber)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      SHEET_ID: ${{ secrets.SHEET_ID }}
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-sa.json
+      JOBBER_CLIENT_ID: ${{ secrets.JOBBER_CLIENT_ID }}
+      JOBBER_CLIENT_SECRET: ${{ secrets.JOBBER_CLIENT_SECRET }}
+      JOBBER_REFRESH_TOKEN: ${{ secrets.JOBBER_REFRESH_TOKEN }}
+      JOBBER_REFRESH_TOKEN_OUT_PATH: ${{ github.workspace }}/.jobber_refresh_token
+      DRY_RUN: ${{ github.event.inputs.dry_run }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write Google service account credentials
+        run: |
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' > "$GOOGLE_APPLICATION_CREDENTIALS"
+
+      - name: Scrape market observations
+        id: scrape
+        continue-on-error: true
+        run: npm run scrape:market
+
+      - name: Build market labor targets
+        run: npm run build:market-rates
+
+      - name: Apply market labor targets to sheet
+        run: npm run apply:market-rates
+
+      - name: Export Jobber CSV
+        run: npm run export:jobber-csv
+
+      - name: Sync to Jobber Products & Services
+        id: sync
+        run: npm run sync:jobber
+
+      - name: Update rotated Jobber refresh token
+        if: always() && hashFiles('.jobber_refresh_token') != ''
+        env:
+          GH_TOKEN: ${{ secrets.REPO_SECRETS_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "REPO_SECRETS_PAT not set; skipping refresh token rotation."
+            exit 0
+          fi
+          NEW_TOKEN=$(cat .jobber_refresh_token)
+          gh secret set JOBBER_REFRESH_TOKEN --body "$NEW_TOKEN" --repo "$GITHUB_REPOSITORY"
+          echo "Refresh token rotated."
+
+      - name: Commit generated artifacts
+        if: always()
+        run: |
+          git config user.name "pricebook-bot"
+          git config user.email "pricebook-bot@users.noreply.github.com"
+          git add data/market_labor_observations.json data/market_labor_targets.json data/jobber_products_services.csv data/scrape_report.json data/jobber_sync_summary.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: quarterly pricebook auto-update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Clean up credentials
+        if: always()
+        run: rm -f "$GOOGLE_APPLICATION_CREDENTIALS" .jobber_refresh_token
+
+      - name: Build notification summary
+        if: always()
+        id: summary
+        run: |
+          SCRAPE_REPORT=$(cat data/scrape_report.json 2>/dev/null || echo '{}')
+          SYNC_SUMMARY=$(cat data/jobber_sync_summary.json 2>/dev/null || echo '{}')
+          {
+            echo "subject=Quarterly pricebook update $(date -u +%Y-%m-%d) — ${{ job.status }}"
+            echo "body<<EOF"
+            echo "Run status: ${{ job.status }}"
+            echo "Repo: ${{ github.repository }}"
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo ""
+            echo "Scrape report:"
+            echo "$SCRAPE_REPORT"
+            echo ""
+            echo "Jobber sync summary:"
+            echo "$SYNC_SUMMARY"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send email notification
+        if: always() && env.SMTP_HOST != ''
+        uses: dawidd6/action-send-mail@v3
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          secure: true
+          from: ${{ secrets.SMTP_FROM }}
+          to: ${{ secrets.NOTIFY_EMAIL_TO }}
+          subject: ${{ steps.summary.outputs.subject }}
+          body: ${{ steps.summary.outputs.body }}

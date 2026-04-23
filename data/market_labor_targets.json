@@ -1,0 +1,609 @@
+{
+  "generated_at": "2026-04-22T18:53:37.202Z",
+  "strategy": "target = min(p75, median + 0.35 * (max - median))",
+  "targets": [
+    {
+      "item_code": "ADD-ROOM-GND",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-GEN",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 140,
+      "labor_unit_cost_p75": 200,
+      "labor_unit_cost_max": 200,
+      "labor_unit_cost_target": 161,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://www.angi.com/articles/how-much-do-home-additions-cost.htm",
+        "https://honestcasa.com/blog/home-addition-per-square-foot-cost"
+      ],
+      "source_names": [
+        "Angi - Home Addition Cost",
+        "HonestCasa - Home Addition"
+      ],
+      "source_date": "2026-02-27"
+    },
+    {
+      "item_code": "BATH-REMOD-MID",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-GEN",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 175,
+      "labor_unit_cost_p75": 257.5,
+      "labor_unit_cost_max": 280,
+      "labor_unit_cost_target": 211.75,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://korekomfortsolutions.com/bathroom-remodeling-cost-2026-complete-guide-prices-timeline-roi/",
+        "https://www.usacabinetstore.com/bathroom-remodeling-cost/"
+      ],
+      "source_names": [
+        "Kore Komfort - Bathroom Remodel",
+        "USA Cabinet Store - Bathroom Remodel"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "CLN-FINAL-POST",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-GEN",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 0.325,
+      "labor_unit_cost_p75": 0.5625,
+      "labor_unit_cost_max": 0.75,
+      "labor_unit_cost_target": 0.4737,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://www.servicemasterclean.com/clean-blog/post-construction-cleaning/post-construction-cleaning-cost-factors/",
+        "https://www.angi.com/articles/how-much-does-it-cost-clean-construction-site.htm"
+      ],
+      "source_names": [
+        "ServiceMaster - Post Construction Cleaning",
+        "Angi - Post Construction Cleanup"
+      ],
+      "source_date": "2026-03-18"
+    },
+    {
+      "item_code": "CONC-DRV-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-CONC",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 8.795,
+      "labor_unit_cost_p75": 11.2325,
+      "labor_unit_cost_max": 12,
+      "labor_unit_cost_target": 9.9168,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.concretenetwork.com/concrete/concrete_driveways/cost.html",
+        "https://www.angi.com/articles/concrete-slab-cost.htm",
+        "https://www.homewyse.com/services/cost_to_install_concrete_driveway.html"
+      ],
+      "source_names": [
+        "Concrete Network - Driveway",
+        "Angi - Concrete Slab",
+        "Homewyse - Install Concrete Driveway"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "CONC-PAT-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-CONC",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 11.15,
+      "labor_unit_cost_p75": 12.48,
+      "labor_unit_cost_max": 22,
+      "labor_unit_cost_target": 12.48,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.landscapioai.com/blog/concrete-patio-cost-guide-2026",
+        "https://homeguide.com/costs/concrete-slab-cost",
+        "https://www.homewyse.com/services/cost_to_install_concrete_patio.html"
+      ],
+      "source_names": [
+        "LandscapioAI - Patio Cost",
+        "HomeGuide - Concrete Slab",
+        "Homewyse - Install Concrete Patio"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "DECK-COMP-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-CARP",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 45,
+      "labor_unit_cost_p75": 60,
+      "labor_unit_cost_max": 60,
+      "labor_unit_cost_target": 50.25,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://usecalcpro.com/blog/how-much-does-a-deck-cost-2026",
+        "https://fieldrate.app/blog/deck-building-cost-2026"
+      ],
+      "source_names": [
+        "UseCalcPro - Deck Cost",
+        "FieldRate - Deck Build"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "DOOR-EXT-STD",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-CARP",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 595,
+      "labor_unit_cost_p75": 760,
+      "labor_unit_cost_max": 1200,
+      "labor_unit_cost_target": 760,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.angi.com/articles/how-much-does-installing-exterior-door-cost.htm",
+        "https://www.doornmore.com/blog/door-installation-cost-in-2026/",
+        "https://match.angi.com/cost/doors-and-windows/exterior-door/"
+      ],
+      "source_names": [
+        "Angi - Exterior Door Install",
+        "Door N More - Door Install 2026",
+        "Angi / HomeAdvisor - Labor"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "DRN-FRCH-EXT",
+      "unit": "lf",
+      "labor_rate_ref": "LAB-LAND",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 22.5,
+      "labor_unit_cost_p75": 42.5,
+      "labor_unit_cost_max": 65,
+      "labor_unit_cost_target": 37.375,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://thebasement.guide/articles/french-drain-cost",
+        "https://modernize.com/gutters/french-drain-cost"
+      ],
+      "source_names": [
+        "The Basement Guide - French Drain",
+        "Modernize - French Drain"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "DRN-FRCH-INT",
+      "unit": "lf",
+      "labor_rate_ref": "LAB-LAND",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 70,
+      "labor_unit_cost_p75": 100,
+      "labor_unit_cost_max": 100,
+      "labor_unit_cost_target": 80.5,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://www.lawnstarter.com/blog/cost/french-drain-price/",
+        "https://usecalcpro.com/blog/how-much-does-a-french-drain-cost-2026"
+      ],
+      "source_names": [
+        "LawnStarter - French Drain",
+        "UseCalcPro - French Drain"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "DRY-PATCH-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-DRYW",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 6.5,
+      "labor_unit_cost_p75": 8.5,
+      "labor_unit_cost_max": 10,
+      "labor_unit_cost_target": 7.725,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://latestcost.com/sheetrock-repair-cost/",
+        "https://www.reviveworkspdx.com/blog/handyman-drywall-repair-cost"
+      ],
+      "source_names": [
+        "LatestCost - Sheetrock Repair",
+        "Revive Works - Drywall Repair Guide"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "ELC-DEV-STD",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-ELEC",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 305,
+      "labor_unit_cost_p75": 348.25,
+      "labor_unit_cost_max": 360,
+      "labor_unit_cost_target": 324.25,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.homewyse.com/services/cost_to_replace_receptacle.html",
+        "https://www.homewyse.com/services/cost_to_install_electrical_outlet.html",
+        "https://www.homewyse.com/services/cost_to_install_electrical_outlet.html"
+      ],
+      "source_names": [
+        "Homewyse - Replace Receptacle",
+        "Homewyse - Install Outlet",
+        "Homewyse - Install Electrical Outlet"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "EXT-GAR-DOOR",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-CARP",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 775,
+      "labor_unit_cost_p75": 1387.5,
+      "labor_unit_cost_max": 1700,
+      "labor_unit_cost_target": 1098.75,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://costonce.com/costs/install-garage-door",
+        "https://currentcost.org/garage-door-labor-cost-price-range-what-affects-it/",
+        "https://currentcost.org/garage-door-labor-cost-price-range-what-affects-it/"
+      ],
+      "source_names": [
+        "CostOnce - Garage Door",
+        "Current Cost - Garage Door Labor",
+        "Current Cost - Mid Scenario"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "FENC-WOOD-PRV",
+      "unit": "lf",
+      "labor_rate_ref": "LAB-CARP",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 39.035,
+      "labor_unit_cost_p75": 45,
+      "labor_unit_cost_max": 53,
+      "labor_unit_cost_target": 43.9227,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://fencecontractorusa.com/blog/cost-guide-2026",
+        "https://bhumicalculator.com/countries/united-states/average-cost-of-fence-per-foot",
+        "https://www.homewyse.com/services/cost_to_install_wood_privacy_fence.html"
+      ],
+      "source_names": [
+        "Fence Contractor USA",
+        "Bhumi Calculator - Fence Cost",
+        "Homewyse - Install Wood Privacy Fence"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "FLR-HDW-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-FLOOR",
+      "source_count": 4,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 7,
+      "labor_unit_cost_p75": 10.4225,
+      "labor_unit_cost_max": 16.72,
+      "labor_unit_cost_target": 10.402,
+      "confidence_score": 92,
+      "source_urls": [
+        "https://dgfloors.com/hardwood-floor-installation-cost/",
+        "https://www.angi.com/articles/how-much-does-hardwood-flooring-cost.htm",
+        "https://bigbrohardwood.com/hardwood-floor-installation-cost-in-2025-price-per-square-foot-and-hidden-fees/",
+        "https://www.homewyse.com/services/cost_to_install_hardwood_floor.html"
+      ],
+      "source_names": [
+        "D and G Flooring - Hardwood Install",
+        "Angi - Hardwood Flooring",
+        "BigBro Hardwood - Labor Rates",
+        "Homewyse - Install Hardwood Floor"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "FLR-LVP-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-FLOOR",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 3.25,
+      "labor_unit_cost_p75": 5.5,
+      "labor_unit_cost_max": 6,
+      "labor_unit_cost_target": 4.2125,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.homeadvisor.com/cost/flooring/install-lvt/",
+        "https://homeguide.com/costs/luxury-vinyl-flooring-cost",
+        "https://latestcost.com/average-lvp-installation-cost/"
+      ],
+      "source_names": [
+        "HomeAdvisor - LVT/LVP Installation",
+        "HomeGuide - LVP Cost",
+        "LatestCost - LVP Installation"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "FLR-TILE-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-FLOOR",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 8.5,
+      "labor_unit_cost_p75": 14.25,
+      "labor_unit_cost_max": 22,
+      "labor_unit_cost_target": 13.225,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://dgfloors.com/cost-to-install-tile-floor/",
+        "https://usecalcpro.com/blog/how-much-does-tile-flooring-cost-2026",
+        "https://tilehub.com/blogs/tilehub/tile-installation-cost"
+      ],
+      "source_names": [
+        "D and G Flooring - Tile Install",
+        "UseCalcPro - Tile Flooring",
+        "TileHub - Tile Installation Cost"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "HVAC-SYS-3T",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-GEN",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 3562.5,
+      "labor_unit_cost_p75": 4875,
+      "labor_unit_cost_max": 5250,
+      "labor_unit_cost_target": 4153.125,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://costonce.com/costs/install-central-air",
+        "https://latestcost.com/central-air-heat-installation-cost-price-budget-range/",
+        "https://hvacpricingguide.com/3-ton-hvac-replacement-cost/"
+      ],
+      "source_names": [
+        "CostOnce - Central AC 3-ton",
+        "LatestCost - Central Air & Heat",
+        "HVAC Pricing Guide - 3 Ton"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "KIT-REMOD-MID",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-GEN",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 137.5,
+      "labor_unit_cost_p75": 212.5,
+      "labor_unit_cost_max": 250,
+      "labor_unit_cost_target": 176.875,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://costfigure.com/home-improvement/how-much-does-a-kitchen-remodel-cost/",
+        "https://www.allurebathsandkitchens.com/average-cost-of-a-kitchen-remodel-updated-for-2026/"
+      ],
+      "source_names": [
+        "CostFigure - Kitchen Remodel",
+        "Allure - Kitchen Remodel"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "NEW-CONST-MID",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-GEN",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 221,
+      "labor_unit_cost_p75": 280,
+      "labor_unit_cost_max": 280,
+      "labor_unit_cost_target": 241.65,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://buildermuse.com/residential/cost-to-build-a-house-per-square-foot-2026/",
+        "https://hammerio.com/blog/how-much-does-it-cost-to-build-a-house/"
+      ],
+      "source_names": [
+        "Buildermuse - New Build Cost",
+        "NAHB / Hammerio - Cost to Build"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "PLB-FIX-STD",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-PLMB",
+      "source_count": 4,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 325,
+      "labor_unit_cost_p75": 391,
+      "labor_unit_cost_max": 845,
+      "labor_unit_cost_target": 391,
+      "confidence_score": 92,
+      "source_urls": [
+        "https://homeguide.com/costs/faucet-installation-cost",
+        "https://www.angi.com/articles/how-much-cost-replace-bathroom-faucet.htm",
+        "https://latestcost.com/cost-install-faucet-labor-only/",
+        "https://www.homewyse.com/services/cost_to_install_faucet.html"
+      ],
+      "source_names": [
+        "HomeGuide - Faucet Installation",
+        "Angi - Bathroom Faucet Replacement",
+        "LatestCost - Faucet Labor Only",
+        "Homewyse - Install Faucet"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "PLB-WTRHTR-STD",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-PLMB",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 365,
+      "labor_unit_cost_p75": 450,
+      "labor_unit_cost_max": 800,
+      "labor_unit_cost_target": 450,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.angi.com/articles/how-much-does-water-heater-installation-cost.htm",
+        "https://www.nearbyhunt.com/articles/water-heater-replacement-cost",
+        "https://costonce.com/costs/install-water-heater"
+      ],
+      "source_names": [
+        "Angi - Water Heater Replacement",
+        "NearbyHunt - Water Heater Labor",
+        "CostOnce - Water Heater"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "PNT-WALL-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-PAINT",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 2.39,
+      "labor_unit_cost_p75": 3.585,
+      "labor_unit_cost_max": 6,
+      "labor_unit_cost_target": 3.585,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://www.homewyse.com/services/cost_to_paint_wall.html",
+        "https://homeadvisor.com/cost/painting/paint-a-home-interior"
+      ],
+      "source_names": [
+        "Homewyse - Paint Wall",
+        "HomeAdvisor - Interior Painting"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "RETN-BLOCK-STD",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-MASON",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 40,
+      "labor_unit_cost_p75": 60,
+      "labor_unit_cost_max": 75,
+      "labor_unit_cost_target": 52.25,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://www.angi.com/articles/how-much-does-it-cost-build-retaining-wall.htm",
+        "https://www.landscapioai.com/blog/retaining-wall-cost-guide-2026"
+      ],
+      "source_names": [
+        "Angi - Retaining Wall",
+        "LandscapioAI - Retaining Wall"
+      ],
+      "source_date": "2026-01-01"
+    },
+    {
+      "item_code": "ROOF-ASH-RPL",
+      "unit": "sf",
+      "labor_rate_ref": "LAB-ROOF",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 5.875,
+      "labor_unit_cost_p75": 7.29,
+      "labor_unit_cost_max": 9,
+      "labor_unit_cost_target": 6.9688,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.roofreplacementcost.ai/blog/whats-the-cost-to-replace-asphalt-shingles-in-2026",
+        "https://americanroofingguide.com/guides/roof-replacement-cost/",
+        "https://www.homewyse.com/services/cost_to_install_asphalt_shingle_roof.html"
+      ],
+      "source_names": [
+        "RoofReplacementCost.ai - Asphalt Roof",
+        "American Roofing Guide",
+        "Homewyse - Install Asphalt Shingle Roof"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "ROOF-GUT-SEAM",
+      "unit": "lf",
+      "labor_rate_ref": "LAB-ROOF",
+      "source_count": 4,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 8.37,
+      "labor_unit_cost_p75": 12.75,
+      "labor_unit_cost_max": 25,
+      "labor_unit_cost_target": 12.75,
+      "confidence_score": 92,
+      "source_urls": [
+        "https://modernize.com/gutters/installation-cost-calculator",
+        "https://resident.com/resource-guide/2026/02/10/how-much-does-it-cost-to-put-gutters-on-a-house",
+        "https://paccsolutions.com/blog/gutter-installation-cost-guide",
+        "https://www.homewyse.com/services/cost_to_install_seamless_gutters.html"
+      ],
+      "source_names": [
+        "Modernize - Aluminum Gutters",
+        "Resident - Gutter Install",
+        "PACC Solutions - Gutter Cost",
+        "Homewyse - Install Seamless Gutters"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "TRM-BASE-PRM",
+      "unit": "lf",
+      "labor_rate_ref": "LAB-CARP",
+      "source_count": 2,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 8.355,
+      "labor_unit_cost_p75": 10.1475,
+      "labor_unit_cost_max": 13.71,
+      "labor_unit_cost_target": 10.1475,
+      "confidence_score": 76,
+      "source_urls": [
+        "https://www.angi.com/articles/how-much-does-it-cost-replace-baseboards.htm",
+        "https://www.homewyse.com/services/cost_to_install_baseboard.html"
+      ],
+      "source_names": [
+        "Angi - Baseboard Installation",
+        "Homewyse - Install Baseboard"
+      ],
+      "source_date": "2026-04-22"
+    },
+    {
+      "item_code": "WIN-REPL-STD",
+      "unit": "ea",
+      "labor_rate_ref": "LAB-CARP",
+      "source_count": 3,
+      "rsmeans_source_count": 0,
+      "labor_unit_cost_median": 200,
+      "labor_unit_cost_p75": 300,
+      "labor_unit_cost_max": 600,
+      "labor_unit_cost_target": 300,
+      "confidence_score": 84,
+      "source_urls": [
+        "https://www.angi.com/articles/how-much-does-window-replacement-cost.htm",
+        "https://allbetterapp.com/window-replacement-cost/",
+        "https://www.getwindowcost.com/"
+      ],
+      "source_names": [
+        "Angi - Window Replacement",
+        "AllBetter - Window Replacement",
+        "GetWindowCost - Installation Labor"
+      ],
+      "source_date": "2026-01-01"
+    }
+  ]
+}

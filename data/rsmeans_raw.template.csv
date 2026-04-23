@@ -1,0 +1,3 @@
+item_code,unit,labor_unit_cost_low,labor_unit_cost_high,source_name,source_url,source_date,notes,labor_rate_ref
+PNT-WALL-STD,sf,1.8,3.1,RSMeans 2026 Interiors,https://example-rsmeans-entry,2026-01-01,Sample row replace with licensed values,LAB-PAINT
+FLR-LVP-STD,sf,2.2,5.2,RSMeans 2026 Flooring,https://example-rsmeans-entry,2026-01-01,Sample row replace with licensed values,LAB-FLOOR

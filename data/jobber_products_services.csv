@@ -1,0 +1,91 @@
+Name,Description,Unit Price,Taxable,Category,Active,Unit cost
+ADD-SID-MATCH,Install matching siding on addition,14.75,TRUE,Service,TRUE,9.30
+ADD-FRM-WALL,Frame exterior wall addition section,37.90,TRUE,Service,TRUE,23.90
+ADD-ROOM-GND,Ground floor room addition standard finish,429.69,TRUE,Service,TRUE,271.00
+ADD-INS-R21,Install R21 batt insulation in addition walls,3.28,TRUE,Service,TRUE,2.07
+ADD-TRUSS-SET,Set roof trusses for addition,31.87,TRUE,Service,TRUE,20.10
+ADD-MEP-ROUGH,MEP rough-in allowance for addition area,36.47,TRUE,Service,TRUE,23.00
+BATH-VENT-FAN,Install bath exhaust fan vented exterior,397.98,TRUE,Service,TRUE,251.00
+BATH-REMOD-MID,Bathroom remodel allowance mid-range,486.38,TRUE,Service,TRUE,306.75
+BATH-SHW-TILE,Install tile shower surround system,105.04,TRUE,Service,TRUE,66.25
+BATH-GLS-DOOR,Install framed glass shower door set,579.53,TRUE,Service,TRUE,365.50
+BATH-TUB-INST,Set and connect standard bathtub,830.05,TRUE,Service,TRUE,523.50
+BATH-VAN-INST,"Install vanity cabinet, top, and sink",659.60,TRUE,Service,TRUE,416.00
+BATH-WTRPRF,Apply waterproof membrane and prep,31.08,TRUE,Service,TRUE,19.60
+CAB-BASE-STD,Install base cabinet run,228.32,TRUE,Service,TRUE,144.00
+CNT-LAM-STD,Install laminate countertop,99.10,TRUE,Service,TRUE,62.50
+CAB-WALL-STD,Install wall cabinet run,245.76,TRUE,Service,TRUE,155.00
+CARP-DOOR-HNG,Hang prehung interior door,474.09,TRUE,Service,TRUE,299.00
+CARP-DOOR-SLB,Install interior slab door with hardware prep,350.41,TRUE,Service,TRUE,221.00
+CARP-TRIM-CAS,Install door and window casing,9.20,TRUE,Service,TRUE,5.80
+CARP-TRIM-CRN,Install crown molding,12.68,TRUE,Service,TRUE,8.00
+CONC-STAMPED,Pour stamped decorative concrete slab,36.31,TRUE,Service,TRUE,22.90
+CONC-DRV-STD,Pour standard broom-finish driveway slab,21.48,TRUE,Service,TRUE,13.55
+CONC-SIDEWALK,Pour concrete sidewalk standard finish,17.28,TRUE,Service,TRUE,10.90
+CONC-FOOTING,Excavate and pour reinforced footing,29.94,TRUE,Service,TRUE,18.88
+CONC-PAT-STD,Pour standard broom-finish patio slab,29.17,TRUE,Service,TRUE,18.40
+DECK-COMP-STD,Build standard composite deck framing and boards,101.88,TRUE,Service,TRUE,64.25
+DECK-PT-STD,Build pressure-treated deck structure,72.78,TRUE,Service,TRUE,45.90
+DECK-RAIL-COMP,Install composite/aluminum deck railing,78.49,TRUE,Service,TRUE,49.50
+DECK-STAIR-STD,Build standard exterior deck stairs,551.78,TRUE,Service,TRUE,348.00
+DEM-INT-STD,Selective interior demolition and haul,2.30,TRUE,Service,TRUE,1.45
+DRN-DOWNSP-EXT,Install buried downspout extension line,16.24,TRUE,Service,TRUE,10.24
+DRN-FRCH-EXT,Install exterior french drain trench and pipe,68.77,TRUE,Service,TRUE,43.37
+DRN-FRCH-INT,Install interior perimeter basement french drain,143.49,TRUE,Service,TRUE,90.50
+DRN-CATCH-BASIN,Install catch basin and tie into line,426.84,TRUE,Service,TRUE,269.20
+DRY-TAPE-FIN,"Tape, mud, and finish drywall joints",3.77,TRUE,Service,TRUE,2.38
+DRY-HANG-12,Hang and finish drywall 1/2 inch board,6.10,TRUE,Service,TRUE,3.85
+DRY-PATCH-STD,Drywall patch and texture blend,13.76,TRUE,Service,TRUE,8.68
+ELC-DEV-STD,Replace standard outlet or switch,512.66,TRUE,Service,TRUE,323.33
+ELE-LITE-FAN,Install ceiling fan with light,339.31,TRUE,Service,TRUE,214.00
+ELE-LITE-RCS,Install recessed light can retrofit,157.76,TRUE,Service,TRUE,99.50
+ELE-SMOKE-DET,Install smoke and CO detector,102.27,TRUE,Service,TRUE,64.50
+EXT-SID-VIN,Install vinyl siding over housewrap,7.37,TRUE,Service,TRUE,4.65
+EXT-SOF-ALM,Install aluminum soffit and fascia trim,10.07,TRUE,Service,TRUE,6.35
+FENC-CHAIN-STD,Install galvanized chain link fence,42.02,TRUE,Service,TRUE,26.50
+FENC-GATE-WLK,Install standard walk gate with hardware,439.20,TRUE,Service,TRUE,277.00
+FENC-VINYL-PRV,Install 6ft vinyl privacy fence,81.66,TRUE,Service,TRUE,51.50
+FENC-WOOD-PRV,Install 6ft wood privacy fence,87.01,TRUE,Service,TRUE,54.88
+FLR-CARP-PAD,Install carpet with pad,6.42,TRUE,Service,TRUE,4.05
+FLR-LAM-STD,Install laminate flooring floating system,8.09,TRUE,Service,TRUE,5.10
+FLR-LVP-STD,Install LVP flooring - standard underlayment,10.50,TRUE,Service,TRUE,6.68
+FLR-TILE-CER,Install ceramic floor tile,16.25,TRUE,Service,TRUE,10.25
+CLN-FINAL-POST,Post-construction final cleanup,0.84,TRUE,Service,TRUE,0.53
+WTHR-CLN-FIN,Final wipe and polish after completion,0.86,TRUE,Service,TRUE,0.54
+INS-BATT-R13,Install fiberglass batt insulation R13,2.05,TRUE,Service,TRUE,1.29
+KIT-APPL-PKG,Install standard kitchen appliance package,894.26,TRUE,Service,TRUE,564.00
+KIT-BKS-TILE,Install tile backsplash with grout and seal,71.75,TRUE,Service,TRUE,45.25
+KIT-CAB-INST,Install kitchen base and wall cabinetry,244.97,TRUE,Service,TRUE,154.50
+KIT-CAB-REFACE,Reface existing kitchen cabinets,122.09,TRUE,Service,TRUE,77.00
+KIT-CTP-QTZ,Install quartz countertop and edge polish,130.81,TRUE,Service,TRUE,82.50
+KIT-ISL-FRAME,Frame and sheath kitchen island structure,551.78,TRUE,Service,TRUE,348.00
+KIT-REMOD-MID,Kitchen remodel allowance mid-range,470.72,TRUE,Service,TRUE,296.88
+NEW-SLAB-STD,Pour reinforced slab-on-grade foundation,26.13,TRUE,Service,TRUE,16.48
+NEW-FRM-STD,Complete wall and roof framing package,65.17,TRUE,Service,TRUE,41.10
+NEW-FIN-INT,Interior finish allowance drywall/paint/trim,57.56,TRUE,Service,TRUE,36.30
+NEW-CONST-MID,New construction baseline allowance mid-grade,565.50,TRUE,Service,TRUE,356.65
+NEW-ROOF-STD,Install architectural shingle roof system,21.98,TRUE,Service,TRUE,13.86
+NEW-MEP-ROUGH,New construction MEP rough-in allowance,57.16,TRUE,Service,TRUE,36.05
+PNT-CEIL-STD,Paint ceiling standard prep,2.27,TRUE,Service,TRUE,1.43
+PNT-TRIM-STD,Paint interior trim and doors,1.97,TRUE,Service,TRUE,1.25
+PNT-WALL-STD,Interior wall paint - standard prep,6.47,TRUE,Service,TRUE,4.01
+PLB-FIX-STD,Install standard vanity faucet fixture,523.64,TRUE,Service,TRUE,330.25
+PLB-SINK-KIT,Install kitchen sink and basket strainer,501.83,TRUE,Service,TRUE,316.50
+PLB-TOIL-STD,Install standard toilet fixture,443.17,TRUE,Service,TRUE,279.50
+PLB-VALVE-SHW,Install shower mixing valve trim set,424.93,TRUE,Service,TRUE,268.00
+ROOF-ASH-RPL,Replace asphalt architectural shingle roofing,15.99,TRUE,Service,TRUE,10.09
+ROOF-FLASH-STD,Install roof flashing and penetrations,18.77,TRUE,Service,TRUE,11.84
+ROOF-GUT-INST,Install seamless gutters and downspouts,20.96,TRUE,Service,TRUE,13.22
+ROOF-TEAR-OLD,Remove and dispose existing shingles,8.69,TRUE,Service,TRUE,5.48
+RETN-BLOCK-STD,Install segmental retaining wall with base prep,108.22,TRUE,Service,TRUE,68.25
+RETN-WALL-DRAIN,Retaining wall drainage aggregate and pipe,34.63,TRUE,Service,TRUE,21.84
+RETN-WALL-GAB,Install gabion retaining wall assembly,59.74,TRUE,Service,TRUE,37.68
+TRM-BASE-PRM,Install and paint primed baseboard,18.79,TRUE,Service,TRUE,11.85
+FLR-TILE-STD,Install standard porcelain/ceramic floor tile (straight-lay),29.69,TRUE,Service,TRUE,18.73
+FLR-HDW-STD,Install standard nail-down solid/engineered hardwood flooring,19.69,TRUE,Service,TRUE,12.42
+WIN-REPL-STD,"Retrofit replacement window (standard size, double-pane)",1189.18,TRUE,Service,TRUE,750.00
+DOOR-EXT-STD,Install prehung exterior entry door with weatherstrip and threshold,2314.93,TRUE,Service,TRUE,1460.00
+HVAC-SYS-3T,"Install 3-ton central AC + furnace (standard efficiency, existing ducts)",13720.18,TRUE,Service,TRUE,8653.13
+PLB-WTRHTR-STD,Replace 40-50 gal gas or electric tank water heater,2140.52,TRUE,Service,TRUE,1350.00
+ROOF-GUT-SEAM,Install seamless aluminum gutters with downspouts,29.73,TRUE,Service,TRUE,18.75
+EXT-GAR-DOOR,Install insulated steel garage door (16x7 standard double) with opener,4120.51,TRUE,Service,TRUE,2598.75

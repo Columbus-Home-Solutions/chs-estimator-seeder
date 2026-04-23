@@ -1,0 +1,114 @@
+[
+  {
+    "item_code": "FLR-TILE-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_install_tile_floor.html",
+    "source_name": "Homewyse - Install Tile Floor",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "FLR-HDW-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_install_hardwood_floor.html",
+    "source_name": "Homewyse - Install Hardwood Floor",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "FLR-LVP-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_install_resilient_flooring.html",
+    "source_name": "Homewyse - Install Resilient (LVP/Vinyl) Flooring",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "PNT-WALL-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_paint_wall.html",
+    "source_name": "Homewyse - Paint Wall",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "TRM-BASE-PRM",
+    "unit": "lf",
+    "url": "https://www.homewyse.com/services/cost_to_install_baseboard.html",
+    "source_name": "Homewyse - Install Baseboard",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*linear\\s*foot"]
+  },
+  {
+    "item_code": "DRY-PATCH-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_repair_drywall.html",
+    "source_name": "Homewyse - Repair Drywall",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*repair"]
+  },
+  {
+    "item_code": "ELC-DEV-STD",
+    "unit": "ea",
+    "url": "https://www.homewyse.com/services/cost_to_install_electrical_outlet.html",
+    "source_name": "Homewyse - Install Electrical Outlet",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*outlet"]
+  },
+  {
+    "item_code": "PLB-FIX-STD",
+    "unit": "ea",
+    "url": "https://www.homewyse.com/services/cost_to_install_faucet.html",
+    "source_name": "Homewyse - Install Faucet",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*faucet"]
+  },
+  {
+    "item_code": "ROOF-ASH-RPL",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_install_asphalt_shingle_roof.html",
+    "source_name": "Homewyse - Install Asphalt Shingle Roof",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "ROOF-GUT-SEAM",
+    "unit": "lf",
+    "url": "https://www.homewyse.com/services/cost_to_install_seamless_gutters.html",
+    "source_name": "Homewyse - Install Seamless Gutters",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*linear\\s*foot"]
+  },
+  {
+    "item_code": "CONC-DRV-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_install_concrete_driveway.html",
+    "source_name": "Homewyse - Install Concrete Driveway",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "CONC-PAT-STD",
+    "unit": "sf",
+    "url": "https://www.homewyse.com/services/cost_to_install_concrete_patio.html",
+    "source_name": "Homewyse - Install Concrete Patio",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*square\\s*foot"]
+  },
+  {
+    "item_code": "FENC-WOOD-PRV",
+    "unit": "lf",
+    "url": "https://www.homewyse.com/services/cost_to_install_wood_privacy_fence.html",
+    "source_name": "Homewyse - Install Wood Privacy Fence",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*linear\\s*foot"]
+  },
+  {
+    "item_code": "WIN-REPL-STD",
+    "unit": "ea",
+    "url": "https://www.homewyse.com/services/cost_to_install_window.html",
+    "source_name": "Homewyse - Install Window",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*window"]
+  },
+  {
+    "item_code": "DOOR-EXT-STD",
+    "unit": "ea",
+    "url": "https://www.homewyse.com/services/cost_to_install_exterior_door.html",
+    "source_name": "Homewyse - Install Exterior Door",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*door"]
+  },
+  {
+    "item_code": "PLB-WTRHTR-STD",
+    "unit": "ea",
+    "url": "https://www.homewyse.com/services/cost_to_replace_hot_water_heater.html",
+    "source_name": "Homewyse - Replace Hot Water Heater",
+    "patterns": ["\\$([0-9,]+\\.?[0-9]*)\\s*[–-]\\s*\\$([0-9,]+\\.?[0-9]*)\\s*per\\s*heater"]
+  }
+]

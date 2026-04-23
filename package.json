@@ -1,0 +1,35 @@
+{
+  "name": "chs-estimator-seeder",
+  "version": "1.0.0",
+  "description": "Google Sheets seeder and migrations for CHS estimator",
+  "main": "src/seedEstimatorWorkbook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node src/seedEstimatorWorkbook.js",
+    "migrate": "node src/migrate.js",
+    "build:market-rates": "node src/scripts/buildMarketLaborRates.js",
+    "import:rsmeans": "node src/scripts/importRsmeans.js",
+    "apply:market-rates": "node src/scripts/applyMarketLaborRates.js",
+    "export:jobber-csv": "node src/scripts/exportJobberProductsServicesCsv.js",
+    "scrape:market": "node src/scripts/scrapeMarketObservations.js",
+    "sync:jobber": "node src/scripts/syncJobberProductsServices.js",
+    "jobber:bootstrap": "node src/scripts/bootstrapJobberToken.js",
+    "quarterly:run": "npm run scrape:market && npm run build:market-rates && npm run apply:market-rates && npm run export:jobber-csv && npm run sync:jobber"
+  },
+  "keywords": [
+    "google-sheets",
+    "estimator",
+    "pricebook",
+    "migrations",
+    "chs"
+  ],
+  "author": "CHS",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.1",
+    "open": "^11.0.0"
+  }
+}
