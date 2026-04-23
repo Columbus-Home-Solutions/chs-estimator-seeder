@@ -63,14 +63,15 @@ jobs:
       - name: Update rotated Jobber refresh token
         if: always() && hashFiles('.jobber_refresh_token') != ''
         env:
-          GH_TOKEN: ${{ secrets.REPO_SECRETS_PAT }}
+          RAW_PAT: ${{ secrets.REPO_SECRETS_PAT }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
+          CLEAN_PAT=$(printf '%s' "$RAW_PAT" | tr -d '[:space:]')
+          if [ -z "$CLEAN_PAT" ]; then
             echo "REPO_SECRETS_PAT not set; skipping refresh token rotation."
             exit 0
           fi
-          NEW_TOKEN=$(cat .jobber_refresh_token)
-          gh secret set JOBBER_REFRESH_TOKEN --body "$NEW_TOKEN" --repo "$GITHUB_REPOSITORY"
+          NEW_TOKEN=$(tr -d '[:space:]' < .jobber_refresh_token)
+          GH_TOKEN="$CLEAN_PAT" gh secret set JOBBER_REFRESH_TOKEN --body "$NEW_TOKEN" --repo "$GITHUB_REPOSITORY"
           echo "Refresh token rotated."
 
       - name: Commit generated artifacts
