@@ -1,152 +1,168 @@
 {
-  "generated_at": "2026-04-22T19:09:01.049Z",
+  "generated_at": "2026-04-23T21:52:47.398Z",
   "total_sources": 16,
-  "successes": 0,
-  "failures": 16,
+  "successes": 16,
+  "failures": 0,
   "results": [
     {
       "item_code": "FLR-TILE-STD",
       "source_name": "Homewyse - Install Tile Floor",
       "url": "https://www.homewyse.com/services/cost_to_install_tile_floor.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:02:55.937Z"
+      "ok": true,
+      "matched": "$16.38 - $20.21 per square foot",
+      "low": 16.38,
+      "high": 20.21,
+      "started_at": "2026-04-23T21:51:59.733Z"
     },
     {
       "item_code": "FLR-HDW-STD",
       "source_name": "Homewyse - Install Hardwood Floor",
       "url": "https://www.homewyse.com/services/cost_to_install_hardwood_floor.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:03:18.951Z"
+      "ok": true,
+      "matched": "$13.19 - $16.72 per square foot",
+      "low": 13.19,
+      "high": 16.72,
+      "started_at": "2026-04-23T21:52:03.341Z"
     },
     {
       "item_code": "FLR-LVP-STD",
       "source_name": "Homewyse - Install Resilient (LVP/Vinyl) Flooring",
       "url": "https://www.homewyse.com/services/cost_to_install_resilient_flooring.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:03:41.959Z"
+      "ok": true,
+      "matched": "$7.51 - $10.17 per square foot",
+      "low": 7.51,
+      "high": 10.17,
+      "started_at": "2026-04-23T21:52:06.485Z"
     },
     {
       "item_code": "PNT-WALL-STD",
       "source_name": "Homewyse - Paint Wall",
       "url": "https://www.homewyse.com/services/cost_to_paint_wall.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:04:04.966Z"
+      "ok": true,
+      "matched": "$1.29 - $2.78 per square foot",
+      "low": 1.29,
+      "high": 2.78,
+      "started_at": "2026-04-23T21:52:09.625Z"
     },
     {
       "item_code": "TRM-BASE-PRM",
       "source_name": "Homewyse - Install Baseboard",
       "url": "https://www.homewyse.com/services/cost_to_install_baseboard.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:04:27.971Z"
+      "ok": true,
+      "matched": "$8.96 - $13.71 per linear foot",
+      "low": 8.96,
+      "high": 13.71,
+      "started_at": "2026-04-23T21:52:12.758Z"
     },
     {
       "item_code": "DRY-PATCH-STD",
       "source_name": "Homewyse - Repair Drywall",
       "url": "https://www.homewyse.com/services/cost_to_repair_drywall.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:04:50.978Z"
+      "ok": true,
+      "matched": "$297 - $472 per repair",
+      "low": 297,
+      "high": 472,
+      "started_at": "2026-04-23T21:52:15.896Z"
     },
     {
       "item_code": "ELC-DEV-STD",
       "source_name": "Homewyse - Install Electrical Outlet",
       "url": "https://www.homewyse.com/services/cost_to_install_electrical_outlet.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:05:13.986Z"
+      "ok": true,
+      "matched": "$297 - $360 per outlet",
+      "low": 297,
+      "high": 360,
+      "started_at": "2026-04-23T21:52:19.055Z"
     },
     {
       "item_code": "PLB-FIX-STD",
       "source_name": "Homewyse - Install Faucet",
       "url": "https://www.homewyse.com/services/cost_to_install_faucet.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:05:36.992Z"
+      "ok": true,
+      "matched": "$514 - $845 per faucet",
+      "low": 514,
+      "high": 845,
+      "started_at": "2026-04-23T21:52:22.208Z"
     },
     {
       "item_code": "ROOF-ASH-RPL",
       "source_name": "Homewyse - Install Asphalt Shingle Roof",
       "url": "https://www.homewyse.com/services/cost_to_install_asphalt_shingle_roof.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:06:00.000Z"
+      "ok": true,
+      "matched": "$5.09 - $6.66 per square foot",
+      "low": 5.09,
+      "high": 6.66,
+      "started_at": "2026-04-23T21:52:25.349Z"
     },
     {
       "item_code": "ROOF-GUT-SEAM",
       "source_name": "Homewyse - Install Seamless Gutters",
       "url": "https://www.homewyse.com/services/cost_to_install_seamless_gutters.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:06:23.009Z"
+      "ok": true,
+      "matched": "$6.29 - $10.45 per linear foot",
+      "low": 6.29,
+      "high": 10.45,
+      "started_at": "2026-04-23T21:52:28.482Z"
     },
     {
       "item_code": "CONC-DRV-STD",
       "source_name": "Homewyse - Install Concrete Driveway",
       "url": "https://www.homewyse.com/services/cost_to_install_concrete_driveway.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:06:46.015Z"
+      "ok": true,
+      "matched": "$9.59 - $11.78 per square foot",
+      "low": 9.59,
+      "high": 11.78,
+      "started_at": "2026-04-23T21:52:31.609Z"
     },
     {
       "item_code": "CONC-PAT-STD",
       "source_name": "Homewyse - Install Concrete Patio",
       "url": "https://www.homewyse.com/services/cost_to_install_concrete_patio.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:07:09.018Z"
+      "ok": true,
+      "matched": "$10.30 - $12.64 per square foot",
+      "low": 10.3,
+      "high": 12.64,
+      "started_at": "2026-04-23T21:52:34.740Z"
     },
     {
       "item_code": "FENC-WOOD-PRV",
       "source_name": "Homewyse - Install Wood Privacy Fence",
       "url": "https://www.homewyse.com/services/cost_to_install_wood_privacy_fence.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:07:32.024Z"
+      "ok": true,
+      "matched": "$33.07 - $53.00 per linear foot",
+      "low": 33.07,
+      "high": 53,
+      "started_at": "2026-04-23T21:52:37.873Z"
     },
     {
       "item_code": "WIN-REPL-STD",
       "source_name": "Homewyse - Install Window",
       "url": "https://www.homewyse.com/services/cost_to_install_window.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:07:55.030Z"
+      "ok": true,
+      "matched": "$639 - $978 per window",
+      "low": 639,
+      "high": 978,
+      "started_at": "2026-04-23T21:52:41.002Z"
     },
     {
       "item_code": "DOOR-EXT-STD",
       "source_name": "Homewyse - Install Exterior Door",
       "url": "https://www.homewyse.com/services/cost_to_install_exterior_door.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:08:18.035Z"
+      "ok": true,
+      "matched": "$957 - $1,458 per door",
+      "low": 957,
+      "high": 1458,
+      "started_at": "2026-04-23T21:52:44.136Z"
     },
     {
       "item_code": "PLB-WTRHTR-STD",
       "source_name": "Homewyse - Replace Hot Water Heater",
       "url": "https://www.homewyse.com/services/cost_to_replace_hot_water_heater.html",
-      "ok": false,
-      "reason": "request_error",
-      "error": "timeout of 20000ms exceeded",
-      "started_at": "2026-04-22T19:08:41.040Z"
+      "ok": true,
+      "matched": "$1,586 - $1,843 per heater",
+      "low": 1586,
+      "high": 1843,
+      "started_at": "2026-04-23T21:52:47.267Z"
     }
   ]
 }
