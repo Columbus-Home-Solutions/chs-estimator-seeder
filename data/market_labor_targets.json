@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T23:34:09.580Z",
+  "generated_at": "2026-07-15T18:00:09.283Z",
   "strategy": "target = min(p75, median + 0.35 * (max - median))",
   "targets": [
     {
@@ -86,7 +86,7 @@
         "Angi - Concrete Slab",
         "Homewyse - Install Concrete Driveway"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "CONC-PAT-STD",
@@ -109,7 +109,7 @@
         "HomeGuide - Concrete Slab",
         "Homewyse - Install Concrete Patio"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "DECK-COMP-STD",
@@ -155,7 +155,7 @@
         "Angi / HomeAdvisor - Labor",
         "Homewyse - Install Exterior Door"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "DRN-FRCH-EXT",
@@ -220,7 +220,7 @@
         "Revive Works - Drywall Repair Guide",
         "Homewyse - Repair Drywall"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "ELC-DEV-STD",
@@ -243,7 +243,7 @@
         "Homewyse - Install Outlet",
         "Homewyse - Install Electrical Outlet"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "EXT-GAR-DOOR",
@@ -289,7 +289,7 @@
         "Bhumi Calculator - Fence Cost",
         "Homewyse - Install Wood Privacy Fence"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "FLR-HDW-STD",
@@ -314,7 +314,7 @@
         "BigBro Hardwood - Labor Rates",
         "Homewyse - Install Hardwood Floor"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "FLR-LVP-STD",
@@ -339,7 +339,7 @@
         "LatestCost - LVP Installation",
         "Homewyse - Install Resilient (LVP/Vinyl) Flooring"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "FLR-TILE-STD",
@@ -364,7 +364,7 @@
         "TileHub - Tile Installation Cost",
         "Homewyse - Install Tile Floor"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "HVAC-SYS-3T",
@@ -454,7 +454,7 @@
         "LatestCost - Faucet Labor Only",
         "Homewyse - Install Faucet"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "PLB-WTRHTR-STD",
@@ -479,7 +479,7 @@
         "CostOnce - Water Heater",
         "Homewyse - Replace Hot Water Heater"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "PNT-WALL-STD",
@@ -500,7 +500,7 @@
         "Homewyse - Paint Wall",
         "HomeAdvisor - Interior Painting"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "RETN-BLOCK-STD",
@@ -544,7 +544,7 @@
         "American Roofing Guide",
         "Homewyse - Install Asphalt Shingle Roof"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "ROOF-GUT-SEAM",
@@ -569,7 +569,7 @@
         "PACC Solutions - Gutter Cost",
         "Homewyse - Install Seamless Gutters"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "TRM-BASE-PRM",
@@ -590,7 +590,7 @@
         "Angi - Baseboard Installation",
         "Homewyse - Install Baseboard"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     },
     {
       "item_code": "WIN-REPL-STD",
@@ -615,7 +615,7 @@
         "GetWindowCost - Installation Labor",
         "Homewyse - Install Window"
       ],
-      "source_date": "2026-04-23"
+      "source_date": "2026-07-15"
     }
   ]
 }

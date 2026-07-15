@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T23:34:09.410Z",
+  "generated_at": "2026-07-15T18:00:09.114Z",
   "total_sources": 16,
   "successes": 16,
   "failures": 0,
@@ -12,7 +12,7 @@
       "matched": "$16.38 - $20.21 per square foot",
       "low": 16.38,
       "high": 20.21,
-      "started_at": "2026-04-23T23:33:20.097Z"
+      "started_at": "2026-07-15T17:59:21.836Z"
     },
     {
       "item_code": "FLR-HDW-STD",
@@ -22,7 +22,7 @@
       "matched": "$13.19 - $16.72 per square foot",
       "low": 13.19,
       "high": 16.72,
-      "started_at": "2026-04-23T23:33:23.736Z"
+      "started_at": "2026-07-15T17:59:25.206Z"
     },
     {
       "item_code": "FLR-LVP-STD",
@@ -32,7 +32,7 @@
       "matched": "$7.51 - $10.17 per square foot",
       "low": 7.51,
       "high": 10.17,
-      "started_at": "2026-04-23T23:33:27.058Z"
+      "started_at": "2026-07-15T17:59:28.346Z"
     },
     {
       "item_code": "PNT-WALL-STD",
@@ -42,7 +42,7 @@
       "matched": "$1.29 - $2.78 per square foot",
       "low": 1.29,
       "high": 2.78,
-      "started_at": "2026-04-23T23:33:30.334Z"
+      "started_at": "2026-07-15T17:59:31.483Z"
     },
     {
       "item_code": "TRM-BASE-PRM",
@@ -52,7 +52,7 @@
       "matched": "$8.96 - $13.71 per linear foot",
       "low": 8.96,
       "high": 13.71,
-      "started_at": "2026-04-23T23:33:33.598Z"
+      "started_at": "2026-07-15T17:59:34.634Z"
     },
     {
       "item_code": "DRY-PATCH-STD",
@@ -62,7 +62,7 @@
       "matched": "$297 - $472 per repair",
       "low": 297,
       "high": 472,
-      "started_at": "2026-04-23T23:33:36.844Z"
+      "started_at": "2026-07-15T17:59:37.774Z"
     },
     {
       "item_code": "ELC-DEV-STD",
@@ -72,7 +72,7 @@
       "matched": "$297 - $360 per outlet",
       "low": 297,
       "high": 360,
-      "started_at": "2026-04-23T23:33:40.075Z"
+      "started_at": "2026-07-15T17:59:40.903Z"
     },
     {
       "item_code": "PLB-FIX-STD",
@@ -82,7 +82,7 @@
       "matched": "$514 - $845 per faucet",
       "low": 514,
       "high": 845,
-      "started_at": "2026-04-23T23:33:43.306Z"
+      "started_at": "2026-07-15T17:59:44.032Z"
     },
     {
       "item_code": "ROOF-ASH-RPL",
@@ -92,7 +92,7 @@
       "matched": "$5.09 - $6.66 per square foot",
       "low": 5.09,
       "high": 6.66,
-      "started_at": "2026-04-23T23:33:46.541Z"
+      "started_at": "2026-07-15T17:59:47.163Z"
     },
     {
       "item_code": "ROOF-GUT-SEAM",
@@ -102,7 +102,7 @@
       "matched": "$6.29 - $10.45 per linear foot",
       "low": 6.29,
       "high": 10.45,
-      "started_at": "2026-04-23T23:33:49.778Z"
+      "started_at": "2026-07-15T17:59:50.293Z"
     },
     {
       "item_code": "CONC-DRV-STD",
@@ -112,7 +112,7 @@
       "matched": "$9.59 - $11.78 per square foot",
       "low": 9.59,
       "high": 11.78,
-      "started_at": "2026-04-23T23:33:53.006Z"
+      "started_at": "2026-07-15T17:59:53.420Z"
     },
     {
       "item_code": "CONC-PAT-STD",
@@ -122,7 +122,7 @@
       "matched": "$10.30 - $12.64 per square foot",
       "low": 10.3,
       "high": 12.64,
-      "started_at": "2026-04-23T23:33:56.273Z"
+      "started_at": "2026-07-15T17:59:56.550Z"
     },
     {
       "item_code": "FENC-WOOD-PRV",
@@ -132,7 +132,7 @@
       "matched": "$33.07 - $53.00 per linear foot",
       "low": 33.07,
       "high": 53,
-      "started_at": "2026-04-23T23:33:59.538Z"
+      "started_at": "2026-07-15T17:59:59.678Z"
     },
     {
       "item_code": "WIN-REPL-STD",
@@ -142,7 +142,7 @@
       "matched": "$639 - $978 per window",
       "low": 639,
       "high": 978,
-      "started_at": "2026-04-23T23:34:02.803Z"
+      "started_at": "2026-07-15T18:00:02.807Z"
     },
     {
       "item_code": "DOOR-EXT-STD",
@@ -152,7 +152,7 @@
       "matched": "$957 - $1,458 per door",
       "low": 957,
       "high": 1458,
-      "started_at": "2026-04-23T23:34:06.069Z"
+      "started_at": "2026-07-15T18:00:05.939Z"
     },
     {
       "item_code": "PLB-WTRHTR-STD",
@@ -162,7 +162,7 @@
       "matched": "$1,586 - $1,843 per heater",
       "low": 1586,
       "high": 1843,
-      "started_at": "2026-04-23T23:34:09.375Z"
+      "started_at": "2026-07-15T18:00:09.071Z"
     }
   ]
 }

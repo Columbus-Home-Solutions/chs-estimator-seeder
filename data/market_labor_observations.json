@@ -6,7 +6,7 @@
     "labor_unit_cost_high": 2.78,
     "source_name": "Homewyse - Paint Wall",
     "source_url": "https://www.homewyse.com/services/cost_to_paint_wall.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -88,7 +88,7 @@
     "labor_unit_cost_high": 13.71,
     "source_name": "Homewyse - Install Baseboard",
     "source_url": "https://www.homewyse.com/services/cost_to_install_baseboard.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -650,7 +650,7 @@
     "labor_unit_cost_high": 16.72,
     "source_name": "Homewyse - Install Hardwood Floor",
     "source_url": "https://www.homewyse.com/services/cost_to_install_hardwood_floor.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -662,7 +662,7 @@
     "labor_unit_cost_high": 360,
     "source_name": "Homewyse - Install Electrical Outlet",
     "source_url": "https://www.homewyse.com/services/cost_to_install_electrical_outlet.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -674,7 +674,7 @@
     "labor_unit_cost_high": 845,
     "source_name": "Homewyse - Install Faucet",
     "source_url": "https://www.homewyse.com/services/cost_to_install_faucet.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -686,7 +686,7 @@
     "labor_unit_cost_high": 6.66,
     "source_name": "Homewyse - Install Asphalt Shingle Roof",
     "source_url": "https://www.homewyse.com/services/cost_to_install_asphalt_shingle_roof.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -698,7 +698,7 @@
     "labor_unit_cost_high": 10.45,
     "source_name": "Homewyse - Install Seamless Gutters",
     "source_url": "https://www.homewyse.com/services/cost_to_install_seamless_gutters.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -710,7 +710,7 @@
     "labor_unit_cost_high": 11.78,
     "source_name": "Homewyse - Install Concrete Driveway",
     "source_url": "https://www.homewyse.com/services/cost_to_install_concrete_driveway.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -722,7 +722,7 @@
     "labor_unit_cost_high": 12.64,
     "source_name": "Homewyse - Install Concrete Patio",
     "source_url": "https://www.homewyse.com/services/cost_to_install_concrete_patio.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -734,7 +734,7 @@
     "labor_unit_cost_high": 53,
     "source_name": "Homewyse - Install Wood Privacy Fence",
     "source_url": "https://www.homewyse.com/services/cost_to_install_wood_privacy_fence.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -746,7 +746,7 @@
     "labor_unit_cost_high": 20.21,
     "source_name": "Homewyse - Install Tile Floor",
     "source_url": "https://www.homewyse.com/services/cost_to_install_tile_floor.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -758,7 +758,7 @@
     "labor_unit_cost_high": 10.17,
     "source_name": "Homewyse - Install Resilient (LVP/Vinyl) Flooring",
     "source_url": "https://www.homewyse.com/services/cost_to_install_resilient_flooring.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -770,7 +770,7 @@
     "labor_unit_cost_high": 472,
     "source_name": "Homewyse - Repair Drywall",
     "source_url": "https://www.homewyse.com/services/cost_to_repair_drywall.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -782,7 +782,7 @@
     "labor_unit_cost_high": 978,
     "source_name": "Homewyse - Install Window",
     "source_url": "https://www.homewyse.com/services/cost_to_install_window.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -794,7 +794,7 @@
     "labor_unit_cost_high": 1458,
     "source_name": "Homewyse - Install Exterior Door",
     "source_url": "https://www.homewyse.com/services/cost_to_install_exterior_door.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
@@ -806,7 +806,7 @@
     "labor_unit_cost_high": 1843,
     "source_name": "Homewyse - Replace Hot Water Heater",
     "source_url": "https://www.homewyse.com/services/cost_to_replace_hot_water_heater.html",
-    "source_date": "2026-04-23",
+    "source_date": "2026-07-15",
     "notes": "Auto-scraped quarterly refresh.",
     "source_type": "auto_scrape",
     "source_weight": 1
